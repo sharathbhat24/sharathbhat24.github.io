@@ -6,6 +6,13 @@
 -->
 <html>
 	<head>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+    <link href="http://fonts.googleapis.com/css?family=Arimo:400" rel="stylesheet">
+
 		
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
@@ -30,30 +37,55 @@
 		font-size:100px;
 		font-style:bold;
 		}
+		
+		
+		
+		
+		
+		.pill-nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color:white;
+}
+
+.pill-nav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.pill-nav a.active {
+  background-color:red;
+  color: white;
+}
+		
+		
 		</style>
 	</head>
 	<body>
-
-		<!-- Header -->
-		<div id="header-wrapper">
-		
-        	<div id="header" class="container">
-            
-            	
-                <nav id="nav">
-                    <ul>
-                        <li ><a href="index.html">Home</a></li>
-                       
-                        <li class="current_page_item"><a href="About Upanayana.html">About Upanayanam</a></li>
-                         <li><a href="venue.html">Venue</a></li>
-                    </ul>
-                </nav>
-                
-            </div>
-
+		<div class="pill-nav" style="background-color:white;">
+			<a  href="index.html">Home</a>
+			<a class="active" href="#">About Upanayanam</a>
+			<a href="Venue.html">Venue</a>
 		</div>
-		<!-- Header Ends Here -->
-
+		<!-- Header -->
+		<!--<a class="menu-bar" data-toggle="collapse" href="#menu">
+            <span class="bars"></span>            
+        </a>
+    	<div class="collapse menu" id="menu">
+            <ul class="list-inline">
+                <li><a href="index.html"><a href="#">Home</a></li>
+                <li><a href="current_page_item">About Upanayanam</a></li>
+                <li ><a href="venue.html">Venue</a></li>
+                
+            </ul>   
+    	</div>
+		 Header Ends Here -->
+ 
 		<!-- Page -->
         
         	<div id="page2">
